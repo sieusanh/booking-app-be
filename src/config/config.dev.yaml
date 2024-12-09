@@ -1,0 +1,15 @@
+http:
+  host: 'localhost'
+  port: 8080
+
+db:
+  postgres:
+    url: 'localhost'
+    port: 5432
+    database: 'yaml-db'
+
+  mongodb:
+    uri: 'mongodb://localhost:27017'
+
+JWT_SECRET_KEY: dev@holo123
+
